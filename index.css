@@ -1,0 +1,265 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    color: black;
+    border-top: 10px solid #1098ad;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main_container{
+    width: 1200px;
+    margin: 10px auto;
+}
+/* .container{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+} */
+.top_header{
+    display: flex;
+    justify-content: space-between;
+    margin:15px 10px;
+}
+.demo{
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.nav_bar{
+    justify-content: center;
+    margin: 15px 10px;
+    text-align: center;
+}
+.nav_bar a{
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-around;
+    margin: 15px 10px;
+    color: black;
+}
+a:hover{
+    color: blue( 10, 10, 255);
+}
+.myh1{
+    font-size: 3rem;
+    /* line-height: 30px;
+    line-height-step: 10px; */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.myh3{
+    font-size: 25px;
+    background-color: red;
+    color: white;
+    width: 900px;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+.line{
+    border: 3px solid;
+    /* border: dashed; */
+    margin-bottom: 20px;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+.Lauron{
+    clip-path: circle();
+}
+.ptag{
+    display: block;
+    margin: auto auto;
+    width: 50%;
+    padding-top: 3%;
+    font-size: 110%;
+    line-height: 200%;
+margin-bottom: 20px;
+}
+.aboutme{
+    display: block;
+    margin: auto auto;
+}
+.arrow{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right:5px solid transparent;
+    border-bottom: 10px solid black;
+}
+.header1{
+  display: flex;  
+  justify-content: right;
+  padding-left: 10PX;
+  padding-right: 10px;
+
+align-items: center;
+}
+.class1{
+    padding: 0 5px;
+    align-items: center;
+    justify-content: center;
+}
+.class2{
+    padding: 0 5px;
+    justify-content: center;
+}
+.class3{
+    padding: 0 20px;
+}
+.class4{
+    padding: 8px 14px;
+   background-color: #4584ef;
+    border-radius: 3px;
+    color: white;
+    width: 30px 50px;
+    height: 33px;
+    border: none;
+}
+
+.google {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.search{
+margin: 0 auto;
+display: flex;
+width: 50%;
+flex-direction: column;
+justify-content: center;
+position: relative;
+
+}
+.search input:hover{
+    box-shadow: 1px 1px 8px 1px  grey;
+}
+.search input:focus{
+    box-shadow: 1px 1px 8px 1px  grey;
+}
+
+.search input {
+    padding-block: 10px;
+    padding-inline: 40px;
+    border-radius: 100px;
+    border: 1px solid #000;
+   
+}
+/* .input{
+    box-shadow: #c42a2a;
+} */
+.search .microphone {
+    position: absolute;
+    right: 15px;
+ 
+}
+
+.search .microphone img, .search .search-icon img {
+    width: 20px;
+}
+
+.search .search-icon {
+    position: absolute;
+    left: 15px;
+}
+.search .camera{
+    position: absolute;
+    right: 20px;
+    width: 20px;
+    padding: 15px;
+
+}
+.button{
+    margin-top: 30px;
+    display: flex;
+   justify-content: center;
+    padding: 10px 15px;
+}
+.button button{
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #f8f8f8;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.language{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.language li {
+    list-style: none;
+    margin: 0 5px;
+
+}
+.language li a {
+    text-decoration: none;
+    color: blue;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #f2f2f2;
+}
+.footer .row1{
+    padding: 15px 25px;
+    border-top: 1px solid rgba(0,0,0,0,05,)
+}
+.ul{
+display: flex;
+justify-content: space-between;
+margin-top: 5px;
+}
+.footer .row2{
+    display: flex;
+    justify-content: space-between;
+    }
+    .footer.row ul{
+        display: flex;
+    }
+    .footer.row ul li{
+        list-style: none;
+    }
+    
+.li1{
+    padding: 0 10px;
+}
+.li2{
+    padding: 0 10px;
+}
+.li3{
+    padding: 0 10px;
+}
+.li4{
+    padding: 0 10px;
+}
+.hr1{
+    justify-content: center;
+    margin-top: 5px;
+}
+.dan1{
+    display: flex;
+    margin-top: 5px;
+}
+.dan2{
+    padding: 0 10px;
+}
+.dan3{
+    padding: 0 10px;
+}
+.dan4{
+    padding: 0 10px;
+}

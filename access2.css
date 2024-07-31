@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.myheader{
+    background-color: #f1f1f1;
+   display: flex;
+   justify-content: space-between;
+   padding: 2px 40px;
+}
+.myheader div ul{
+    display: flex;
+    list-style: none;
+}
+.myheader div ul li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-size: 15px;
+}
+.myheader div ul li .orange{
+    text-decoration: none;
+    color: orangered;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.headerRight{
+    display: flex;
+    align-items: center;
+}
+.headerRight .myimage{
+    width: 20px;
+}
+.headerRight .myimage img{
+    width:100%;
+    border-radius: 2px;
+}
+.headerRight span{
+    margin-right: 10px;
+}
+.headerRight .bi-caret-down-fill{
+    font-size: 10px;
+}
+.headerRight .mylocator{
+    font-size: 15px;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.mynavigation ul{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    gap: 20px;
+    
+}
+.mynavgation ul li a{
+    color: black;
+    margin: 10px;
+}
+.nav-middle{
+    width: 15%;
+    height: 100%;
+    background-color: #f1f1f1;
+}
+.nav-middle nav{
+    height: 100%;
+    padding: 20px;
+}
+::placeholder{
+    color: white;
+
+}
+.nav-middle nav input{
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+}
+.nav-right{
+    width: 15%;
+    height: 100%;
+    background-color: orangered;
+    padding-right: 30px;
+}
+.nav-right nav {
+    height:100%;
+    padding: 16px 20px;
+}
+.nav-right nav a{
+    color: white;
+}
+
